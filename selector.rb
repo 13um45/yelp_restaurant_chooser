@@ -101,7 +101,7 @@ attachments = [
     author_icon: 'https://s3-media3.fl.yelpcdn.com/assets/srv0/styleguide/b62d62e8722a/assets/img/brand_guidelines/yelp_fullcolor_outline@2x.png',
     title: "#{rest.name}",
     title_link: "#{rest.url}",
-    text: "Category: #{rest.categories} \nRating: #{rest.rating} out of 5 stars \nDistance: #{rest.distance} miles away",
+    text: "Category: #{rest.categories} \nRating: #{rest.rating} out of 5 stars \nPrice Range: #{rest.price}\nDistance: #{rest.distance} miles away",
     image_url: "#{rest.image_url}",
     footer: 'Christian made this',
     footer_icon: ENV['SLACK_AVATAR']
