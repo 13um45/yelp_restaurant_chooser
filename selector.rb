@@ -107,7 +107,7 @@ attachments = [
     footer_icon: ENV['SLACK_AVATAR']
 ]
 
-slack_message_hash = {username: 'yelp_restaurant_chooser', icon_emoji: ':squirrel:', attachments: attachments}.to_json
+slack_message_hash = {username: 'yelp_restaurant_chooser', icon_emoji: ':yelp:', attachments: attachments}.to_json
 
 HTTParty.post(ENV['SLACK_WEBHOOK_URL'], body: slack_message_hash)
 
